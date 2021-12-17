@@ -95,3 +95,5 @@ kmarkdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  
+remote_theme: SdtElectronics/jekyll-theme-antarctica
