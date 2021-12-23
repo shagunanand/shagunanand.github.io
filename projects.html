@@ -1,19 +1,575 @@
----
-layout: page
-widgets: 
-  - colophon
-  - share
-  - global_cmt
----
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Portfolio | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Portfolio" />
+<meta name="author" content="Shagun Anand" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="https://shagunanand.github.io/projects.html" />
+<meta property="og:url" content="https://shagunanand.github.io/projects.html" />
+<meta property="og:site_name" content="Portfolio" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Portfolio" />
+<script type="application/ld+json">
+{"@type":"WebPage","author":{"@type":"Person","name":"Shagun Anand"},"headline":"Portfolio","url":"https://shagunanand.github.io/projects.html","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 110 100%22><text y=%22.9em%22 font-size=%2290%22>🧊</text></svg>">
+    <link rel="stylesheet" href="/assets/css/nf.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href = "/assets/css/syntax.css" rel="stylesheet"><script src = "https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script></head><body>
+        <nav id = "upperSidebar" class = "sidebarCont">
+    <ul id = "HighSidebarCont" class = "sidebarGrp shadowTile">
+        <li id = "home" class = "sidebarElem">
+            <span class = "sidebarLabel barElemLabel">
+                Portfolio
+            </span>
 
-{%- if site.projects.size > 0 -%}
+            <a class = "btn nf nf-mdi-home" href = "/home.html">
+            </a>
+        </li>
+    </ul>
 
-  {%- include functions/get_projects.html -%}
-  {% assign categories = return %}
+    <ul id = "MidSidebarCont" class = "sidebarGrp shadowTile">
+        <li id = "categories" class = "sidebarElem">
+            <span class = "sidebarLabel barElemLabel">
+                Categories
+            </span>                
 
-  {% assign keys = categories %}
-  {% assign field = 'categories' %}
-  {% assign collection = site.projects %}
-  {%- include list.html -%}
+            <a class = "btn nf nf-mdi-format_list_bulleted"  href = "/categories.html">
+            </a>
+        </li>
+        
+        
 
-{%- endif -%}
+
+
+
+
+
+
+
+
+
+<ul class = "sidebarList noScrollbar">
+    
+    <li>
+        <a href = "/categories.html#announcement" class = "lstH1 sidebarlstH1">announcement</a>
+        <span class = "invSpan">1</span>
+    </li>
+    
+    <li>
+        <a href = "/categories.html#demo" class = "lstH1 sidebarlstH1">demo</a>
+        <span class = "invSpan">1</span>
+    </li>
+    
+    <li>
+        <a href = "/categories.html#junk" class = "lstH1 sidebarlstH1">junk</a>
+        <span class = "invSpan">1</span>
+    </li>
+    
+    <li>
+        <a href = "/categories.html#markdown" class = "lstH1 sidebarlstH1">markdown</a>
+        <span class = "invSpan">3</span>
+    </li>
+    
+    <li>
+        <a href = "/categories.html#misc" class = "lstH1 sidebarlstH1">misc</a>
+        <span class = "invSpan">2</span>
+    </li>
+    
+</ul>
+
+        <li id = "tags" class = "sidebarElem">
+            <span class = "sidebarLabel barElemLabel">
+                Tags
+            </span>                      
+
+            <a class = "btn nf nf-mdi-tag_multiple" href = "/tags.html">
+            </a>              
+        </li>
+        
+        <div class = "sidebarList noScrollbar">
+            <div class = "tagCont rightRow">
+
+                
+                
+                    <a class = "hashTag" href="/tags.html#test">test</a>
+                
+                
+                    <a class = "hashTag" href="/tags.html#example">example</a>
+                
+                
+                    <a class = "hashTag" href="/tags.html#markdown">markdown</a>
+                
+                
+                    <a class = "hashTag" href="/tags.html#antarctica">antarctica</a>
+                
+                
+                    <a class = "hashTag" href="/tags.html#theme">theme</a>
+                
+                
+                    <a class = "hashTag" href="/tags.html#release-note">release-note</a>
+                
+            </div>
+        </div><li id = "projects" class = "sidebarElem">
+            <span class = "sidebarLabel barElemLabel">
+                Projects
+            </span>                      
+
+            <a class = "btn nf nf-mdi-hexagon_multiple" href = "/projects.html">
+            </a>              
+        </li>
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+<ul class = "sidebarList noScrollbar">
+    
+    <li>
+        <a href = "/projects.html#2018-Teaching" class = "lstH1 sidebarlstH1">2018-Teaching</a>
+        <span class = "invSpan">1</span>
+    </li>
+    
+    <li>
+        <a href = "/projects.html#2019-Teaching" class = "lstH1 sidebarlstH1">2019-Teaching</a>
+        <span class = "invSpan">1</span>
+    </li>
+    
+    <li>
+        <a href = "/projects.html#2020-Teaching" class = "lstH1 sidebarlstH1">2020-Teaching</a>
+        <span class = "invSpan">0</span>
+    </li>
+    
+    <li>
+        <a href = "/projects.html#2021-Teaching" class = "lstH1 sidebarlstH1">2021-Teaching</a>
+        <span class = "invSpan">1</span>
+    </li>
+    
+    <li>
+        <a href = "/projects.html#2022-Teaching" class = "lstH1 sidebarlstH1">2022-Teaching</a>
+        <span class = "invSpan">0</span>
+    </li>
+    
+</ul><li id = "gallery" class = "sidebarElem">
+            <span class = "sidebarLabel barElemLabel">
+                Gallery
+            </span>                      
+
+            <a class = "btn nf nf-mdi-image_filter" href = "/gallery.html">
+            </a>              
+        </li></ul>
+</nav>
+
+<nav id = "lowerSidebar" class = "sidebarCont">
+    <ul id = "toTopSidebarCont" class = "sidebarGrp shadowTile"><li id = "toTop" class = "sidebarElem">
+            <span class = "sidebarLabel barElemLabel">
+                Back to Top
+            </span>
+
+            <a class = "btn nf nf-fa-angle_double_up" href = "#midContTop">
+            </a>
+        </li></ul>
+
+    <ul id = "LowerSidebarCont" class = "sidebarGrp shadowTile">
+        <li id = "star" class = "sidebarElem">
+            <span class = "sidebarLabel barElemLabel">
+                Star This Blog
+            </span>
+
+            <a class = "btn nf nf-fa-star">
+            </a>
+        </li>
+
+        <li id = "about" class = "sidebarElem">
+            <span class = "sidebarLabel barElemLabel">
+                About
+            </span>
+
+            <a class = "btn nf nf-mdi-information" href = "/about.html">
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div class = "mid-content mid-list noScrollbar fixedCont">
+    <div id = "midContTop"></div>
+    
+
+
+
+
+
+
+
+  
+  
+  
+<input type="checkbox" class = "mid-hori-tgl"/>
+
+<div class = "mid-hori-bar">
+    <span id = "2018-Teaching" class = "barElemLabel">
+        2018-Teaching
+    </span>
+
+    <span class = "invSpan">1</span>
+</div>  
+
+<div class = "midMulRow">
+    
+    
+        
+            
+
+<div class = "mulRowElem">
+    <a class = "mulRowPrev" href="/projects/2018-07-01-Survey-Results.html" style = "background-image: url();"></a>
+    <h1>2018 Survey Results</h1>
+    <div class = "mulRowMeta">
+
+        <div class = "mulRowRight"><a class = "hashTag" href="/tags.html#survey">survey</a><a class = "hashTag" href="/tags.html#results">results</a></div>
+    </div>
+</div>
+        
+    
+</div>
+
+<input type="checkbox" class = "mid-hori-tgl"/>
+
+<div class = "mid-hori-bar">
+    <span id = "2019-Teaching" class = "barElemLabel">
+        2019-Teaching
+    </span>
+
+    <span class = "invSpan">1</span>
+</div>  
+
+<div class = "midMulRow">
+    
+    
+        
+            
+
+<div class = "mulRowElem">
+    <a class = "mulRowPrev" href="/projects/2019-07-01-Survey-Results.html" style = "background-image: url();"></a>
+    <h1>2019 Survey Results</h1>
+    <div class = "mulRowMeta">
+
+        <div class = "mulRowRight"><a class = "hashTag" href="/tags.html#survey">survey</a><a class = "hashTag" href="/tags.html#results">results</a></div>
+    </div>
+</div>
+        
+    
+</div>
+
+<input type="checkbox" class = "mid-hori-tgl"/>
+
+<div class = "mid-hori-bar">
+    <span id = "2020-Teaching" class = "barElemLabel">
+        2020-Teaching
+    </span>
+
+    <span class = "invSpan">0</span>
+</div>  
+
+<div class = "midMulRow">
+    
+    
+</div>
+
+<input type="checkbox" class = "mid-hori-tgl"/>
+
+<div class = "mid-hori-bar">
+    <span id = "2021-Teaching" class = "barElemLabel">
+        2021-Teaching
+    </span>
+
+    <span class = "invSpan">1</span>
+</div>  
+
+<div class = "midMulRow">
+    
+    
+        
+            
+
+<div class = "mulRowElem">
+    <a class = "mulRowPrev" href="/projects/2021-12-18-Teaching-Post.html" style = "background-image: url();"></a>
+    <h1>2021 Teaching Post 1</h1>
+    <div class = "mulRowMeta">
+
+        <div class = "mulRowRight"><a class = "hashTag" href="/tags.html#linux">linux</a></div>
+    </div>
+</div>
+        
+    
+</div>
+
+<input type="checkbox" class = "mid-hori-tgl"/>
+
+<div class = "mid-hori-bar">
+    <span id = "2022-Teaching" class = "barElemLabel">
+        2022-Teaching
+    </span>
+
+    <span class = "invSpan">0</span>
+</div>  
+
+<div class = "midMulRow">
+    
+    
+</div>
+
+</div>
+
+<div id = "rightCont" class = "fixedCont">
+    <nav id = "bottomNav">
+    <div class = "bottomGrp"><a class = "btn nf nf-fa-angle_double_up" href = "#midContTop">
+        </a></div>
+    
+    <form class = "bottomGrp">
+        <a class = "btn nf nf-mdi-home" href = "/home.html">
+        </a>
+
+        <input id = "bottomListBtn" type="radio" name="option" class = "bottomPopbtn btn"/>
+
+        <input id = "bottomRst" type="reset" class = "bottomRstbtn"/>
+
+        <ul class = "bottomPop noScrollbar">
+            <li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "/categories.html">
+                    <i class = "btn nf nf-mdi-format_list_bulleted"></i>
+                     Categories
+                </a>
+            </li>
+
+            <li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "/tags.html">
+                    <i class = "btn nf nf-mdi-tag_multiple"></i>
+                     Tags
+                </a>
+            </li>
+
+            <li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "/archives.html">
+                    <i class = "btn nf nf-mdi-history"></i>
+                     Archives
+                </a>
+            </li><li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "/projects.html">
+                    <i class = "btn nf nf-mdi-hexagon_multiple"></i>
+                     Projects
+                </a>
+            </li><li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "/gallery.html">
+                    <i class = "btn nf nf-mdi-image_filter"></i>
+                     Gallery
+                </a>
+            </li></ul>
+
+        <input id = "bottomMsgBtn" type="radio" name="option" class = "bottomPopbtn btn"/>
+
+        <input type="reset" class = "bottomRstbtn"/>
+
+        <div class = "bottomPop noScrollbar"><div class = "colophon rightElem shadowTile">
+    <h1 class = "lstH1">Colophon</h1>
+
+    <div class = "rightRow">
+        <h2>Copyright &copy; 2021 Shagun Anand</h2>
+    </div>
+
+    <div class = "rightRow">
+        <h2>All Rights Reserved.</h2>
+    </div>
+
+    <div class = "rightRow">
+        <h2>Powered by <a href = "https://jekyllrb.com/">Jekyll</a> | Theme <a href = "https://github.com/SdtElectronics/jekyll-theme-antarctica">Antarctica</a></h2>
+    </div>
+</div>
+
+<style>
+    .colophon{
+        padding-bottom: 0.3rem;
+        flex-shrink: 0;
+    }
+
+    .colophon>.rightRow>*{
+        color: var(--foreground-light);
+        font-size: 0.9rem;
+    }
+</style><div class = "rightElem rightBtns shadowTile wxshare">
+    
+    
+
+
+
+
+
+    
+
+    <a class = "twitter-share-button btn nf nf-mdi-twitter" target = "_blank" href = "http://twitter.com/share?url=https://shagunanand.github.io/projects.html&text=Portfolio&via=https://shagunanand.github.io">
+    </a>
+
+    <a class = "btn nf nf-mdi-facebook_box" target = "_blank" href = "https://www.facebook.com/sharer/sharer.php?u=https://shagunanand.github.io/projects.html">
+    </a>
+
+    
+
+    <a class = "btn nf nf-mdi-qqchat" target = "_blank" href = "http://connect.qq.com/widget/shareqq/iframe_index.html?url=https://shagunanand.github.io/projects.html&title=Portfolio&desc=article%20from%20Shagun%20Anand's%20blog&pics=&site=https://shagunanand.github.io">
+    </a>
+
+    
+
+    <a class = "btn nf nf-fa-weibo" target = "_blank" href = "http://service.weibo.com/share/share.php?type=3&count=1&url=https://shagunanand.github.io/projects.html&title=Portfolio">
+    </a>
+
+    <a class = "btn nf nf-fa-weixin" target = "_blank" href = "http://connect.qq.com/widget/shareqq/iframe_index.html?url=https://shagunanand.github.io/projects.html&title=Portfolio&desc=article%20from%20Shagun%20Anand's%20blog&pics=&site=https://shagunanand.github.io">
+    </a>
+</div>
+
+<style>
+    @media screen and (max-width: 650px){
+        .wxshare{
+            display: none;
+        }
+    }
+</style><div class = "rightElem shadowTile rightComt">
+    <h1 class = "lstH1">Leave a Message</h1>
+    <div id = "vcomments" style = "padding: 0.6rem 0.8rem 1rem 0.8rem;"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'GoHOdR14a6Qubobq68emQ8n2-MdYXbMMI',
+            appKey: 'SCxcdTzApt8RXJVrtqsDXay0',
+            lang: 'en',
+            path: "home",
+            serverURLs: 'https://gohodr14.api.lncldglobal.com'
+        });
+        
+        document.getElementById("veditor").setAttribute("rows", "1");
+    </script>
+</div>
+
+<style>
+    #vcomments{
+        padding: 0.6rem 0.8rem 1rem 0.8rem;
+        overflow-y: auto;
+        max-height: calc(100% - 2.1rem);
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    }
+
+    #vcomments::-webkit-scrollbar{ /* WebKit */
+        width: 0;
+        height: 0;
+    }
+
+    .v[data-class=v] .vwrap .vheader .vinput {
+        width: 100%;
+    }
+
+    .v[data-class=v] .vcards .vcard {
+        padding-top: 0.9em;
+    }
+
+    .v[data-class=v] .veditor {
+        min-height: 0px;
+    }
+
+    .v[data-class=v] .vsys{
+        display: none;
+    }
+
+    .v[data-class=v] .vwrap .vheader .vinput:focus {
+        border-bottom-color: #7a5a88;
+    }
+
+    .v[data-class=v] .vcards .vcard .vhead .vnick:hover {
+        color: #0099ff;
+    }
+
+    .v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+        color: #0099ff;
+    }
+</style></div>
+
+        <input id = "bottomShareBtn" type="radio" name="option" class = "bottomPopbtn btn"/>
+
+        <input type="reset" class = "bottomRstbtn"/>
+        
+
+
+
+
+        <ul class = "bottomPop noScrollbar">
+            
+
+
+
+
+            
+            
+            <li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "http://twitter.com/share?url=https://shagunanand.github.io/projects.html&text=Portfolio&via=https://shagunanand.github.io">
+                    <i class = "btn nf nf-mdi-twitter"></i>
+                    Share on Twitter
+                </a>
+            </li>
+
+            <li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "https://www.facebook.com/sharer/sharer.php?u=https://shagunanand.github.io/projects.html">
+                    <i class = "btn nf nf-mdi-facebook_box"></i>
+                    Share on Facebook
+                </a>
+            </li>
+
+            
+            <li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "http://connect.qq.com/widget/shareqq/iframe_index.html?url=https://shagunanand.github.io/projects.html&title=Portfolio&desc=article%20from%20Shagun%20Anand's%20blog&pics=&site=https://shagunanand.github.io">
+                    <i class = "btn nf nf-mdi-qqchat"></i>
+                    Share with QQ Friends
+                </a>
+            </li>
+
+            
+
+            <li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "http://service.weibo.com/share/share.php?type=3&count=1&url=https://shagunanand.github.io/projects.html&title=Portfolio">
+                    <i class = "btn nf nf-fa-weibo"></i>
+                    Share on Weibo
+                </a>
+            </li>
+
+            <li class = "bottomPopLi">
+                <a class = "bottomLabel barElemLabel" href = "http://connect.qq.com/widget/shareqq/iframe_index.html?url=https://shagunanand.github.io/projects.html&title=Portfolio&desc=article%20from%20Shagun%20Anand's%20blog&pics=&site=https://shagunanand.github.io">
+                    <i class = "btn nf nf-fa-weixin"></i>
+                    Share with WeChat Friends
+                </a>
+            </li>
+        </ul>
+
+        <a class = "btn nf nf-mdi-information" href = "/about.html">
+        </a>
+
+        <label for = "bottomRst" class = "bottomPopBack">
+        </label>
+    </form>
+</nav>
+</div>
+
+
+    </body>
+</html>
