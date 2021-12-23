@@ -459,19 +459,6 @@ code .nf{
     margin: 2.7rem 0px 3rem 0px;
 }
 
-.avatar{
-    display: inline-block;
-    transition: all 0.2s;
-    margin: 0px 0.9rem;
-    height: 20.4rem;
-    width: 20.4rem;
-    border: solid 2px #aaa;
-    border-radius: 15rem;
-}
-
-.avatar:hover{
-    border-radius: 3rem;
-}
 
 #a-intro{
     display: inline-block;

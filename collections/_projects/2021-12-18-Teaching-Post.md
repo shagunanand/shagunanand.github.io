@@ -1,9 +1,8 @@
 ---
 layout: article
-title: Xassette IoT
-categories: Hardware
+title: 2021 Teaching Post 1
+categories: 2021-Teaching
 tags: linux 
-eyeCatcher: https://z3.ax1x.com/2021/08/26/huiE1f.jpg
 ---
 
 ## Hardware Resources

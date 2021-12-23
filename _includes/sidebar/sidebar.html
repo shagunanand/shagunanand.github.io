@@ -41,17 +41,6 @@
             </div>
         </div>
 
-        <li id = "history" class = "sidebarElem">
-            <span class = "sidebarLabel barElemLabel">
-                Archives
-            </span>                      
-
-            <a class = "btn nf nf-mdi-history" href = "{{ '/archives.html' | relative_url }}">
-            </a>              
-        </li>
-        
-        {% include sidebar/archiveslist.html %}
-
         {%- if site.template.portfolios contains "projects" -%}
         <li id = "projects" class = "sidebarElem">
             <span class = "sidebarLabel barElemLabel">

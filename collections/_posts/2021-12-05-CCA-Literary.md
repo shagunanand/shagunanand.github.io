@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Post Content Styles Demonstration"
+title: CCA - Literary and Oratorical Club
 categories: demo
 eyeCatcher: https://pbs.twimg.com/media/EyhcJUoWgAMAjvj.jpg
 ---
